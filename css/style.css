@@ -1,0 +1,248 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: Candara;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    background-color: whitesmoke;
+}
+
+.cabecera
+{
+    height: 140px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, black 5%, purple 200%);
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 0 0 5px black;
+}
+
+.cabecera h3
+{
+    color: white;
+    font-family: Consolas;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.cabecera img
+{
+    width: 70px;
+    height: 70px;
+}
+
+#app
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectos
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyectoFinal
+{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    background-color: lightgray;
+}
+
+.proyectosJsFiddle
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe
+{
+    width: 90%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabs
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tab
+{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+
+.tab:hover
+{
+    color: purple;
+    transform: scale(1.1);
+}
+
+.tab:active
+{
+    color: purple;
+}
+
+.activeTab
+{
+    color: purple;
+    transform: scale(1.1);
+}
+
+.product
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productImg
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgAuba
+{
+    width: 75%;
+}
+
+.productInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spoiler
+{
+    color: green;
+}
+
+.goalList
+{
+    list-style-type: square;
+}
+
+.linkCounter
+{
+    margin: 50px;
+    margin-top: 100px;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.imageOutline
+{
+    box-shadow: 0 0 0 3px #FF4500,
+    0 0 0 6px #4169E1,
+    0 0 0 9px #FF4500,
+    0 0 0 12px #4169E1;
+}
+
+.goldenTitle
+{
+    color: goldenRod;
+}
+
+.fanReviews
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fanForm
+{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: scroll;
+}
+
+.errors
+{
+    font-size: 10px;
+    color: red;
+}
+
+.errorsList
+{
+    list-style-type: none;
+}
+
+.reviewList
+{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
